@@ -1,0 +1,157 @@
+2023-08-28T00:00:07.773+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:07.810+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:07.813+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:08.242+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:08.247+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:16.611+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:16.615+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:16.617+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:24.912+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:24.922+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:24.925+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:25.180+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:25.183+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:25.490+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:25.493+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:28.812+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:28.815+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:34.616+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:34.620+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:34.623+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:36.180+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:36.183+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:36.487+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:36.491+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:00:44.874+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/customers/ticket/2/1
+2023-08-28T00:00:44.880+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /customers/customers/ticket/2/1
+2023-08-28T00:00:44.885+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /customers/customers/ticket/2/1
+2023-08-28T00:00:44.885+05:30  WARN 9076 --- [http-nio-8888-exec-6] o.s.web.servlet.PageNotFound             : No mapping for POST /customers/customers/ticket/2/1
+2023-08-28T00:00:44.896+05:30  WARN 9076 --- [http-nio-8888-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint POST /customers/customers/ticket/2/1.]
+2023-08-28T00:01:15.536+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:01:15.542+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:01:15.545+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:01:15.946+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:01:15.948+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:01:18.756+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:01:18.759+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:05.201+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:05.208+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:05.212+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:05.702+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:05.705+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:17.313+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:17.322+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:17.324+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:17.760+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:17.762+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:27.278+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:27.280+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:27.282+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:35.890+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/customers/ticket/2/1
+2023-08-28T00:06:35.898+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /customers/customers/ticket/2/1
+2023-08-28T00:06:35.902+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /customers/customers/ticket/2/1
+2023-08-28T00:06:35.902+05:30  WARN 9076 --- [http-nio-8888-exec-4] o.s.web.servlet.PageNotFound             : No mapping for POST /customers/customers/ticket/2/1
+2023-08-28T00:06:35.904+05:30  WARN 9076 --- [http-nio-8888-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint POST /customers/customers/ticket/2/1.]
+2023-08-28T00:06:36.115+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:36.119+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:36.121+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:50.643+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:50.656+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:50.659+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:50.932+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:50.935+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:51.303+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:51.307+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:06:56.425+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/customers/ticket/2/1
+2023-08-28T00:06:56.430+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /customers/customers/ticket/2/1
+2023-08-28T00:06:56.436+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /customers/customers/ticket/2/1
+2023-08-28T00:06:56.436+05:30  WARN 9076 --- [http-nio-8888-exec-9] o.s.web.servlet.PageNotFound             : No mapping for POST /customers/customers/ticket/2/1
+2023-08-28T00:06:56.437+05:30  WARN 9076 --- [http-nio-8888-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint POST /customers/customers/ticket/2/1.]
+2023-08-28T00:07:31.326+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:07:31.332+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:07:31.335+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:07:31.951+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:07:31.952+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:04.718+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:04.747+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:04.749+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:05.288+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:05.294+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:10.664+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/customers/ticket/2/1
+2023-08-28T00:08:10.674+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /customers/customers/ticket/2/1
+2023-08-28T00:08:10.680+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /customers/customers/ticket/2/1
+2023-08-28T00:08:10.680+05:30  WARN 9076 --- [http-nio-8888-exec-6] o.s.web.servlet.PageNotFound             : No mapping for POST /customers/customers/ticket/2/1
+2023-08-28T00:08:10.683+05:30  WARN 9076 --- [http-nio-8888-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint POST /customers/customers/ticket/2/1.]
+2023-08-28T00:08:26.583+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:26.592+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:26.594+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:26.884+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:26.886+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:35.254+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:35.272+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:35.275+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:40.272+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:40.280+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:40.282+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:40.520+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:40.523+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:40.842+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:40.845+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:46.248+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:46.255+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:46.261+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:50.945+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/customers/ticket/2/2
+2023-08-28T00:08:50.950+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /customers/customers/ticket/2/2
+2023-08-28T00:08:50.954+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /customers/customers/ticket/2/2
+2023-08-28T00:08:50.955+05:30  WARN 9076 --- [http-nio-8888-exec-2] o.s.web.servlet.PageNotFound             : No mapping for POST /customers/customers/ticket/2/2
+2023-08-28T00:08:50.961+05:30  WARN 9076 --- [http-nio-8888-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint POST /customers/customers/ticket/2/2.]
+2023-08-28T00:08:51.171+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:51.174+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:54.057+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:54.061+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:54.063+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:08:58.177+05:30 DEBUG 9076 --- [http-nio-8888-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/customers/ticket/2/2
+2023-08-28T00:08:58.182+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /customers/customers/ticket/2/2
+2023-08-28T00:08:58.186+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /customers/customers/ticket/2/2
+2023-08-28T00:08:58.186+05:30  WARN 9076 --- [http-nio-8888-exec-7] o.s.web.servlet.PageNotFound             : No mapping for POST /customers/customers/ticket/2/2
+2023-08-28T00:08:58.189+05:30  WARN 9076 --- [http-nio-8888-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint POST /customers/customers/ticket/2/2.]
+2023-08-28T00:10:14.819+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:10:14.835+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:10:14.838+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:10:15.538+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:10:15.541+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:10:16.260+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:10:16.262+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:10:23.926+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/customers/ticket/2/4
+2023-08-28T00:10:23.932+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /customers/customers/ticket/2/4
+2023-08-28T00:10:23.939+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /customers/customers/ticket/2/4
+2023-08-28T00:10:23.939+05:30  WARN 9076 --- [http-nio-8888-exec-5] o.s.web.servlet.PageNotFound             : No mapping for POST /customers/customers/ticket/2/4
+2023-08-28T00:10:23.940+05:30  WARN 9076 --- [http-nio-8888-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint POST /customers/customers/ticket/2/4.]
+2023-08-28T00:11:02.945+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:02.961+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:02.975+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:03.869+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:03.873+05:30 DEBUG 9076 --- [http-nio-8888-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:05.130+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:05.134+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:20.010+05:30 DEBUG 9076 --- [http-nio-8888-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/customers/ticket/2/2
+2023-08-28T00:11:20.013+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /customers/customers/ticket/2/2
+2023-08-28T00:11:20.017+05:30 DEBUG 9076 --- [http-nio-8888-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /customers/customers/ticket/2/2
+2023-08-28T00:11:20.017+05:30  WARN 9076 --- [http-nio-8888-exec-1] o.s.web.servlet.PageNotFound             : No mapping for POST /customers/customers/ticket/2/2
+2023-08-28T00:11:20.019+05:30  WARN 9076 --- [http-nio-8888-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint POST /customers/customers/ticket/2/2.]
+2023-08-28T00:11:20.461+05:30 DEBUG 9076 --- [http-nio-8888-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:20.494+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:20.509+05:30 DEBUG 9076 --- [http-nio-8888-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:21.094+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:21.097+05:30 DEBUG 9076 --- [http-nio-8888-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:21.693+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:11:21.696+05:30 DEBUG 9076 --- [http-nio-8888-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:19:26.133+05:30 DEBUG 9076 --- [http-nio-8888-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:19:26.141+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:19:26.146+05:30 DEBUG 9076 --- [http-nio-8888-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /customers/activity/all?pageNumber=0&pageSize=6
+2023-08-28T00:19:28.332+05:30  INFO 9076 --- [RMI TCP Connection(46)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-08-28T00:19:28.422+05:30  INFO 9076 --- [RMI TCP Connection(46)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-28T00:19:28.432+05:30  INFO 9076 --- [RMI TCP Connection(46)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-28T00:19:28.496+05:30  INFO 9076 --- [RMI TCP Connection(46)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28T00:19:28.529+05:30  INFO 9076 --- [RMI TCP Connection(46)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-28T00:19:28.540+05:30  INFO 9076 --- [RMI TCP Connection(46)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

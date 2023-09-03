@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Activity</title>
+    <style>
+        /* Reset default margin and padding on all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a global font-family and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Style the sidebar */
+#sideBar {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack tabs vertically */
+}
+
+/* Style sidebar tabs */
+.tabs {
+    margin-bottom: 10px; /* Add a bit of space between tabs */
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.tabs a:hover {
+    background-color: #555;
+}
+
+/* Style the main content area */
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* Take remaining available space */
+}
+
+/* Style the form container */
+#updateForm {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+/* Apply consistent styles for labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Apply consistent styles for input fields */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* Apply consistent styles for the submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+/* Change button background color on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Adjust form responsiveness */
+@media (max-width: 768px) {
+    #updateForm {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="sideBar">
+        <div class="tabs">
+            <a href="admin.html"><h4>Activities</h4></a>
+        </div>
+        <div class="tabs">
+           <a href="adminCustomer.html"> <h4>Customers</h4></a>
+        </div>
+        <div class="tabs">
+            <a href="adminTicket.html"><h4>Tickets</h4></a>
+        </div>
+        <div class="tab" id="logout">
+            <a href="#"><h4>Logout</h4></a>
+        </div>
+    </div>
+    
+    <form id="updateForm">
+        <label for="activityName">Activity Name:</label>
+        <input type="text" id="activityName" name="activityName" required><br><br>
+
+        <label for="distance">Distance:</label>
+        <input type="number" id="distance" name="distance" required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required><br><br>
+
+        <input type="submit" value="Update Activity">
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const updateForm = document.getElementById("updateForm");
+
+            updateForm.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                const jwtToken = getCookie();
+
+                const activityId = sessionStorage.getItem("id"); 
+
+                const updatedActivity = {
+                    activityName: document.getElementById("activityName").value,
+                    distance: parseFloat(document.getElementById("distance").value),
+                    price: parseFloat(document.getElementById("price").value)
+                };
+
+                fetch(`http://localhost:8888/admin/activity/update/${activityId}`, {
+                    method: 'PUT',
+                    headers: {
+                        "Authorization": `Bearer ${jwtToken}`,
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(updatedActivity)
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    console.log(`Activity with ID ${activityId} updated successfully.`);
+                    window.location.href = "admin.html";
+                    
+                })
+                .catch(error => {
+                    console.error("Update error:", error);
+                });
+            });
+        });
+
+        function getCookie() {
+    const value =  document.cookie;
+    
+    const parts = value.split("=");
+    
+    return parts[1];
+}
+    </script>
+</body>
+</html>

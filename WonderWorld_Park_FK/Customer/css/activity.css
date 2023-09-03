@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding: 16px;
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 8px 0;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.card-price {
+    font-size: 20px;
+    margin-top: 8px;
+    color: #007bff;
+}
+
+.book-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}
+    /* Style for the form fields */
+    #bookingForm label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    #bookingForm input[type="date"],
+    #bookingForm input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    /* Style for the submit button */
+    #bookingForm button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    /* Style for the modal content */
+    .modal-content {
+        border-radius: 0;
+    }

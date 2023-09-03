@@ -1,0 +1,194 @@
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+#sideBar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tabs a:hover {
+    background-color: #555;
+}/* Style the sidebar */
+#sideBar {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+/* Style sidebar tabs */
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.tabs a:hover {
+    background-color: #555;
+}
+
+#data {
+    margin-left: 280px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    margin-left: 200px;
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    margin-left: 100px;
+    width: 100%;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f5f5f5;
+    width: 10%;
+}
+
+#add {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+#add:hover {
+    background-color: #0056b3;
+}
+.delete,
+.update {
+    background-color: #dc3545; /* Red for delete */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.delete:hover,
+.update:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.update {
+    background-color: #17a2b8; /* Blue for update */
+}
+
+.update:hover {
+    background-color: #138496; /* Darker blue on hover */
+}
+
+#logout a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+#logout a:hover {
+    background-color: #555;
+}
+
+/* Style the "Add" button-like element */
+#in {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center; /* Vertically center the content */
+    padding: 20px;
+    
+}
+
+#in a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#add {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+#add:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #sideBar {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    #data {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    table {
+        font-size: 0.9em;
+    }
+}
