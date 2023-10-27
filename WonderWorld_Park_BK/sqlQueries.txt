@@ -1,0 +1,196 @@
+
+
+**Activity:**
+- **Insert Activity:**
+  
+  INSERT INTO activity (activity_name, price, distance, is_deleted, created_on)
+  VALUES (?, ?, ?, false, NOW());
+  
+  
+- **Update Activity:**
+  
+  UPDATE activity
+  SET activity_name = ?, price = ?, distance = ?
+  WHERE activity_id = ?;
+  
+
+- **Get All Activities:**
+  
+  SELECT *
+  FROM activity
+  WHERE is_deleted = false
+  ORDER BY created_on
+  LIMIT ? OFFSET ?;
+  
+
+- **Get Activity by ID:**
+  
+  SELECT *
+  FROM activity
+  WHERE activity_id = ? AND is_deleted = false;
+  
+
+- **Get Activity by Charge:**
+  
+  SELECT *
+  FROM activity
+  WHERE price = ? AND is_deleted = false;
+  
+
+- **Get Activities by Customer Name:**
+  
+  SELECT a.*
+  FROM activity a
+  JOIN customer c ON a.customer_id = c.customer_id
+  WHERE a.is_deleted = false
+  ORDER BY c.customer_name, a.created_on;
+  
+
+- **Get Activities Date-Wise:**
+  
+  SELECT *
+  FROM activity
+  WHERE is_deleted = false
+  ORDER BY created_on;
+  
+
+- **Get Activities by Customer ID:**
+  
+  SELECT *
+  FROM activity
+  WHERE customer_id = ? AND is_deleted = false;
+  
+
+**Customer:**
+- **Insert Customer:**
+  
+  INSERT INTO customer (email, address, mobile_number, username, created_on, is_deleted)
+  VALUES (?, ?, ?, ?, ?, false);
+  
+
+- **Update Customer:**
+  
+  UPDATE customer
+  SET address = ?, mobile_number = ?, username = ?
+  WHERE customer_id = ?;
+  
+
+- **Delete Customer:**
+  
+  UPDATE customer
+  SET is_deleted = true, deletion_time = NOW()
+  WHERE customer_id = ?;
+  
+
+- **View All Customers:**
+  
+  SELECT *
+  FROM customer
+  WHERE is_deleted = false;
+  
+
+- **View Customer by ID:**
+  
+  SELECT *
+  FROM customer
+  WHERE customer_id = ? AND is_deleted = false;
+  
+
+- **Find Customer by Email:**
+  
+  SELECT *
+  FROM customer
+  WHERE email = ? AND is_deleted = false;
+  
+
+**Ticket:**
+- **Create Ticket:**
+  
+  INSERT INTO ticket (customer_id, activity_id, visit_date, price, is_expired, person_count)
+  VALUES (?, ?, ?, ?, false, ?);
+  
+
+- **Update Ticket:**
+  
+  UPDATE ticket
+  SET price = ?, person_count = ?, visit_date = ?
+  WHERE ticket_id = ?;
+  
+
+- **Get Ticket by ID:**
+  
+  SELECT *
+  FROM ticket
+  WHERE ticket_id = ?;
+  
+
+- **Delete Ticket:**
+  
+  UPDATE ticket
+  SET is_expired = true
+  WHERE ticket_id = ?;
+  
+
+- **View All Tickets:**
+  
+  SELECT *
+  FROM ticket;
+  
+
+- **Get Ticket Booking History by Customer ID:**
+  
+  SELECT *
+  FROM ticket
+  WHERE customer_id = ?;
+  
+
+- **Get Ticket Booking History for the Day by Customer ID:**
+  
+  SELECT *
+  FROM ticket
+  WHERE customer_id = ? AND visit_date <= CURRENT_DATE;
+  
+
+- **Get Total Fare for the Day by Customer ID:**
+  
+  SELECT SUM(price)
+  FROM ticket
+  WHERE customer_id = ? AND visit_date <= CURRENT_DATE;
+  
+
+**Admin:**
+- **Insert Admin:**
+  
+  INSERT INTO admin (email, created_on, is_deleted)
+  VALUES (?, ?, false);
+  
+
+- **Delete Admin:**
+  
+  UPDATE admin
+  SET is_deleted = true, deletion_time = NOW()
+  WHERE admin_id = ?;
+  
+
+- **Find Admin by Email:**
+  
+  SELECT *
+  FROM admin
+  WHERE email = ? AND is_deleted = false;
+  
+
+- **Find Admin by Admin ID:**
+  
+  SELECT *
+  FROM admin
+  WHERE admin_id = ? AND is_deleted = false;
+  
+
+- **View All Admins with Pagination:**
+  
+  SELECT *
+  FROM admin
+  WHERE is_deleted = false
+  LIMIT ? OFFSET ?;
+  
+  
